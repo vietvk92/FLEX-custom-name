@@ -69,4 +69,8 @@
     return self;
 }
 
+- (void)_setWidthValue:(CGFloat)width {
+    self.width = width;
+}
+
 @end
